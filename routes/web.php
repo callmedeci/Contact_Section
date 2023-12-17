@@ -14,4 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [RegisterController::class, 'showRegisterPage']);
+Route::get('/', [RegisterController::class, 'showRegisterPage'])
+    ->name('register')
+;
+Route::post('/', [RegisterController::class, 'handleRegister'])
+    ->name('register.post')
+;
