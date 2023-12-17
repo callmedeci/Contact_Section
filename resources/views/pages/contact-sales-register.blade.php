@@ -21,7 +21,7 @@
                             name="first_name"
                             class="rounded-md bg-white w-full px-3 py-2 outline-none
                         appearance-none mt-4 focus:ring-2 focus:ring-pink-300
-                        transition-all duration-700">
+                        transition-all duration-700">ve
                     </label>
             </form>
 
